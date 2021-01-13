@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
+
+html {
+  border-radius: 3px;
+}
+
+.vscode-dark {
+  --black: #32302f;
+  --blue: #89beba;
+  --cyan: #87c095;
+  --green: #94af73;
+  --magenta: #d3a0bc;
+  --red: #e68183;
+  --white: #fbe0b5;
+  --yellow: #d9bb80;
+  --orange: #e39b7b;
+  --foreground: #fbe0b5;
+  --light-foreground: #b0a386;
+  --thin-foreground: #7e7156;
+  --comment: #958b75;
+}
+
+.vscode-light {
+  --black: #faf5dc;
+  --blue: #70a4b9;
+  --cyan: #59b093;
+  --green: #8bb143;
+  --magenta: #c85bbf;
+  --red: #e4442f;
+  --white: #9d734a;
+  --yellow: #d79431;
+  --orange: #db711a;
+  --foreground: #8d5d30;
+  --light-foreground: #ad8963;
+  --thin-foreground: #d6b591;
+  --comment: #cdb496;
+}
+
+.vscode-dark a,
+.vscode-light a {
+  color: var(--blue);
+}
+
+.vscode-dark h1,
+.vscode-dark h2,
+.vscode-dark h3,
+.vscode-dark h4,
+.vscode-dark h5,
+.vscode-dark h6,
+.vscode-light h1,
+.vscode-light h2,
+.vscode-light h3,
+.vscode-light h4,
+.vscode-light h5,
+.vscode-light h6 {
+  padding-top: 20px;
+  font-family: "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
+    "Cambria", "monospace";
+  color: var(--yellow);
+}
+
+.vscode-dark h1:before,
+.vscode-dark h2:before,
+.vscode-dark h3:before,
+.vscode-dark h4:before,
+.vscode-dark h5:before,
+.vscode-dark h6:before,
+.vscode-light h1:before,
+.vscode-light h2:before,
+.vscode-light h3:before,
+.vscode-light h4:before,
+.vscode-light h5:before,
+.vscode-light h6:before {
+  content: "# ";
+  color: var(--orange);
+}
+
+.vscode-dark,
+.vscode-light {
+  font-family: "PT Sans", "Nunito", "IBM Plex Sans", "Segoe UI", "sans-serif";
+  font-size: 17px;
+}
+
+.vscode-dark table > thead > tr > th,
+.vscode-light table > thead > tr > th {
+  border-bottom: 1px solid var(--light-foreground);
+}
+
+.vscode-dark h1,
+.vscode-dark h1 hr,
+.vscode-dark table > tbody > tr + tr > td,
+.vscode-light h1,
+.vscode-light h1 hr,
+.vscode-light table > tbody > tr + tr > td {
+  border-top: 1px solid var(--thin-foreground);
+}
+
+.vscode-dark hr,
+.vscode-light hr {
+  border-width: 1px;
+  border-color: var(--thin-foreground);
+}
+
+.vscode-dark blockquote,
+.vscode-light blockquote {
+  color: var(--light-foreground);
+  /* font-style: italic; */
+  background: transparent;
+  border-color: transparent transparent transparent var(--green);
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  padding-top: 12px;
+  margin-bottom: 16px;
+}
+
+/* Code */
+.vscode-dark code,
+.vscode-light code {
+  /* font-size: 16px; */
+  color: var(--cyan);
+}
+
+.vscode-dark pre,
+.vscode-dark pre code,
+.vscode-light pre,
+.vscode-light pre code {
+  font-size: 16px;
+  color: var(--foreground);
+  background-color: transparent;
+  white-space: pre;
+}
+
+.vscode-dark pre,
+.vscode-light pre {
+  border: 1px solid var(--thin-foreground);
+}
+
+.vscode-dark .hljs-keyword,
+.vscode-light .hljs-keyword {
+  color: var(--red);
+}
+
+.vscode-dark .hljs-comment,
+.vscode-light .hljs-comment {
+  color: var(--comment);
+}
+
+.vscode-dark .hljs-class .hljs-title,
+.vscode-light .hljs-class .hljs-title {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.vscode-dark .hljs-class .hljs-keyword,
+.vscode-light .hljs-class .hljs-keyword {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.vscode-dark .hljs-number,
+.vscode-light .hljs-number {
+  color: var(--magenta);
+}
+
+.vscode-dark .hljs-string,
+.vscode-light .hljs-string {
+  color: var(--green);
+}
+
+.vscode-dark .hljs-function .hljs-title,
+.vscode-light .hljs-function .hljs-title {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.vscode-dark .hljs-function .hljs-params,
+.vscode-light .hljs-function .hljs-params {
+  color: var(--blue);
+}
+
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
