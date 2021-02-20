@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
@@ -14,29 +15,29 @@ html {
   --green: #94af73;
   --magenta: #d3a0bc;
   --red: #e68183;
-  --white: #fbe0b5;
+  --white: #cbbd99;
   --yellow: #d9bb80;
   --orange: #e39b7b;
-  --foreground: #fbe0b5;
+  --foreground: #cbbd99;
   --light-foreground: #b0a386;
   --thin-foreground: #7e7156;
-  --comment: #958b75;
+  --comment: #958875;
 }
 
 .vscode-light {
   --black: #faf5dc;
-  --blue: #70a4b9;
+  --blue: #65a1c9;
   --cyan: #59b093;
-  --green: #8bb143;
-  --magenta: #c85bbf;
-  --red: #e4442f;
-  --white: #9d734a;
-  --yellow: #d79431;
-  --orange: #db711a;
+  --green: #8d9e49;
+  --magenta: #dc8cbf;
+  --red: #c74b47;
+  --white: #8d5d30;
+  --yellow: #d79921;
+  --orange: #d65d0e;
   --foreground: #8d5d30;
   --light-foreground: #ad8963;
   --thin-foreground: #d6b591;
-  --comment: #cdb496;
+  --comment: #c4a786;
 }
 
 .vscode-dark a,
@@ -80,7 +81,7 @@ html {
 
 .vscode-dark,
 .vscode-light {
-  font-family: "PT Sans", "Nunito", "IBM Plex Sans", "Segoe UI", "sans-serif";
+  font-family: "IBM Plex Sans", "PT Sans", "Nunito", "IBM Plex Sans", "Segoe UI", "sans-serif";
   font-size: 17px;
 }
 
