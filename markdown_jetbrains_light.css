@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
+
+html {
+  border-radius: 3px;
+  padding: 0px 8px 0px 8px;
+
+  --black: #faf5dc;
+  --blue: #65a1c9;
+  --cyan: #59b093;
+  --green: #8d9e49;
+  --magenta: #dc8cbf;
+  --red: #c74b47;
+  --white: #8d5d30;
+  --yellow: #d79921;
+  --orange: #d65d0e;
+  --foreground: #8d5d30;
+  --light-foreground: #ad8963;
+  --thin-foreground: #d6b591;
+  --comment: #c4a786;
+}
+
+body {
+  font-family: "Fira Sans", "PT Sans", "Nunito", "IBM Plex Sans", "Segoe UI", "sans-serif";
+  font-size: 17px;
+}
+
+a {
+  color: var(--blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: 20px;
+  font-family: "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
+    "Cambria", "monospace";
+  color: var(--yellow);
+}
+
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+  content: "# ";
+  color: var(--orange);
+}
+
+table > thead > tr > th {
+  border-bottom: 1px solid var(--light-foreground);
+}
+
+h1,
+h1 hr,
+table > tbody > tr + tr > td {
+  border-top: 1px solid var(--thin-foreground);
+}
+
+hr {
+  border-width: 1px;
+  border-color: var(--thin-foreground);
+}
+
+blockquote {
+  color: var(--light-foreground);
+  /* font-style: italic; */
+  background: transparent;
+  border-color: transparent transparent transparent var(--green);
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  padding-top: 12px;
+  margin-bottom: 16px;
+}
+
+/* Code */
+code {
+  /* font-size: 16px; */
+  color: var(--cyan);
+}
+
+pre,
+pre code {
+  font-size: 16px;
+  color: var(--foreground);
+  background-color: transparent;
+  white-space: pre;
+}
+
+pre {
+  border: 1px solid var(--thin-foreground);
+}
+
+.hljs-keyword {
+  color: var(--red);
+}
+
+.hljs-comment {
+  color: var(--comment);
+}
+
+.hljs-class .hljs-title {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.hljs-class .hljs-keyword {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.hljs-number {
+  color: var(--magenta);
+}
+
+.hljs-string {
+  color: var(--green);
+}
+
+.hljs-function .hljs-title {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.hljs-function .hljs-params {
+  color: var(--blue);
+}
+
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
