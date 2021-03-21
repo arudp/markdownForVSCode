@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
 
 html {
@@ -59,7 +59,7 @@ html {
 .vscode-light h5,
 .vscode-light h6 {
   padding-top: 20px;
-  font-family: "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
+  font-family: "Lora", "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
     "Cambria", "monospace";
   color: var(--yellow);
 }
