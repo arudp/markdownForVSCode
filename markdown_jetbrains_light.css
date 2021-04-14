@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
 
 html {
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  font-family: "Fira Sans", "PT Sans", "Nunito", "IBM Plex Sans", "Segoe UI", "sans-serif";
+  font-family: "IBM Plex Sans", "PT Sans", "Nunito", "IBM Plex Sans", "Segoe UI", "sans-serif";
   font-size: 17px;
 }
 
@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
   padding-top: 20px;
-  font-family: "Lora", "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
+  font-family: "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
     "Cambria", "monospace";
   color: var(--yellow);
 }
