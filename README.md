@@ -7,7 +7,7 @@ To use it the only thing to do is add the following lines to the `settings.json`
 
 ```json
 "markdown.styles": [
-  "https://raw.githack.com/arudp/markdownForVSCode/main/markdown.css"
+  "https://rawcdn.githack.com/arudp/markdownForVSCode/15b4f57103a44bbadc09496a6496ed20a070bfec/markdown.css",
 ],
 ```
 
@@ -16,4 +16,15 @@ To use it the only thing to do is add the following lines to the `settings.json`
 
 ## Fork
 If you want to fork it you can just use it as a template to improve it to your taste or if you like the shape of things but not the colours you can just go ahead and change the variables in the first lines. Note that the colours are written twice, once for light themes and once for dark themes so VSCode uses one or the other depending on the type of theme you're using.  
-Of course, if you do fork it, make sure that you use the correct URL in your `settings.json`: https://raw.githack.com/$MY_USER/markdownForVSCode/main/markdown.css
+Of course, if you do fork it, make sure that you use the correct URL in your `settings.json`:
+* In dev environment, to see updates faster:  
+  https://raw.githack.com/$MY_USER/markdownForVSCode/main/markdown.css
+* For "production", most likely for sharing:  
+  https://rawcdn.githack.com/$MY_USER/markdownForVSCode/$COMMIT_HASH/markdown.css
+  
+  
+  ---
+  
+  ### Extra note
+  So, as you can see there's an additional JetBrains css file. I haven't got around to maket it work just as URL, so feel free to just copy and paste it in your local IDE.
+  
