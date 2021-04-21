@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
 
 html {
   border-radius: 3px;
@@ -60,7 +61,7 @@ html {
 .vscode-light h5,
 .vscode-light h6 {
   padding-top: 20px;
-  font-family: "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
+  font-family: "Crete Round", "Product Sans", "Montserrat", "Century Gothic",
     "Cambria", "monospace";
   color: var(--yellow);
 }
