@@ -29,19 +29,19 @@ html {
 }
 
 .vscode-light {
-  --black: #faf5dc;
-  --blue: #65a1c9;
+  --black: #fbfafc;
+  --blue: #5A9FD4;
   --cyan: #59b093;
-  --green: #8d9e49;
-  --magenta: #dc8cbf;
+  --green: #759E17;
+  --magenta: #aa59b4;
   --red: #c74b47;
-  --white: #8d5d30;
+  --white: #54483d;
   --yellow: #d79921;
   --orange: #d65d0e;
-  --foreground: #8d5d30;
-  --light-foreground: #ad8963;
-  --thin-foreground: #d6b591;
-  --comment: #c4a786;
+  --foreground: #54483d;
+  --light-foreground: #b8b4ae;
+  --thin-foreground: #d6d2cd;
+  --comment: #ae9a9a;
 }
 
 .vscode-dark a,
