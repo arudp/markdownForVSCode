@@ -2,8 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Signika=swap");
+@import url("https://fonts.googleapis.com/css?family=Solway=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
 
 html {
   border-radius: 3px;
@@ -40,7 +45,7 @@ h4,
 h5,
 h6 {
   padding-top: 20px;
-  font-family: "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
+  font-family: "Solway", "IBM Plex Serif", "Product Sans", "Montserrat", "Crete Round", "Century Gothic",
     "Cambria", "monospace";
   color: var(--yellow);
 }
