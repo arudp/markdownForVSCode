@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Signika=swap");
+@import url("https://fonts.googleapis.com/css?family=Solway=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
 
 html {
@@ -63,7 +64,7 @@ html {
 .vscode-light h5,
 .vscode-light h6 {
   padding-top: 20px;
-  font-family: "Signika", "Roboto Slab", "Crete Round", "Product Sans", "Montserrat", "Century Gothic",
+  font-family: "Solway", "Signika", "Roboto Slab", "Crete Round", "Product Sans", "Montserrat", "Century Gothic",
     "Cambria", "monospace";
   color: var(--yellow);
 }
