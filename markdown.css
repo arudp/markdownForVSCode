@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Crete+Round&display=swap");
@@ -87,7 +87,7 @@ html {
 
 .vscode-dark,
 .vscode-light {
-  font-family: "IBM Plex Sans", "Nunito", "Fira Sans", "PT Sans", "Nunito", "Segoe UI", "sans-serif";
+  font-family: "Lato", "IBM Plex Sans", "Nunito", "Fira Sans", "PT Sans", "Nunito", "Segoe UI", "sans-serif";
   font-size: 17px;
 }
 
